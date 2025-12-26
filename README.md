@@ -3,7 +3,7 @@
 A time series forecasting tool designed to predict daily sales trends by leveraging Meta’s Prophet model and data preprocessing.
 
 
-## 📊 Data Preprocessing (Key Focus)
+## 📊 Data Preprocessing
 Before modeling, the raw daily CSV data undergoes a transformation pipeline to ensure the **Principle of Equal Contribution**:
 
 * **Schema Mapping:** Standardizing the dataset into `ds` (datestamp) and `y` (target sales value) for Prophet compatibility.
